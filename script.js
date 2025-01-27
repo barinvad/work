@@ -1,19 +1,17 @@
 const menuBtn = document.querySelector('.menu-btn'); 
 const panel = document.querySelector('.right-side-nav'); 
 const closeBtn = document.querySelector('.close-btn'); 
- 
+
 menuBtn.addEventListener('click', () => {
     panel.style.display = 'block';
     menuBtn.style.display = 'none'
 }); 
 
-
- 
 closeBtn.addEventListener('click', () => { 
     menuBtn.style.display = 'block'; 
     panel.style.display = 'none'; 
 }); 
- 
+
 const firstBtn = document.querySelector('.first-link'); 
 const secondBtn = document.querySelector('.second-link'); 
 const thirdBtn = document.querySelector('.third-link'); 
